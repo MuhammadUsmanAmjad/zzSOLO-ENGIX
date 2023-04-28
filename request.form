@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "label": "Enter your Company's  Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_106wrf4",
+        "columns": null
+      },
+      "id": "Field_061n7ip",
+      "key": "field_0s5b076",
+      "disabled": false
+    },
+    {
+      "label": "Enter your Company's Address",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1kl7ap6",
+        "columns": null
+      },
+      "id": "Field_1i8iwtr",
+      "key": "field_12czo5x",
+      "appearance": {}
+    },
+    {
+      "label": "Enter your Company's contact number",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_00rsv0l",
+        "columns": null
+      },
+      "id": "Field_1qm3nlx",
+      "key": "field_0hjldl1"
+    },
+    {
+      "label": "Enter proposal for Inspection ",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_174sk8f",
+        "columns": null
+      },
+      "id": "Field_1uqpg89",
+      "key": "field_0z1m2md"
+    },
+    {
+      "action": "submit",
+      "label": "Submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_1n4r7ia",
+        "columns": 2
+      },
+      "id": "Field_04qkilc",
+      "key": "field_0p87fs1"
+    },
+    {
+      "action": "reset",
+      "label": "Reset",
+      "type": "button",
+      "layout": {
+        "row": "Row_1n4r7ia",
+        "columns": 2
+      },
+      "id": "Field_06k43tf",
+      "key": "field_0exska2"
+    }
+  ],
+  "schemaVersion": 8,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e8f2bb5"
+  },
+  "type": "default",
+  "id": "Form_1ac887e7-e836-4f7f-a0f5-5980434e3e09",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0"
+}
