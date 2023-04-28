@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "subtype": "date",
+      "dateLabel": "Date",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1pnkyhj",
+        "columns": 4
+      },
+      "id": "Field_1wptoue",
+      "key": "field_09xnt9m"
+    },
+    {
+      "subtype": "time",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0g7ais5",
+        "columns": 4
+      },
+      "id": "Field_0sqrh89",
+      "key": "field_0lkndrr",
+      "timeLabel": "Time",
+      "timeSerializingFormat": "utc_offset",
+      "timeInterval": 15
+    }
+  ],
+  "schemaVersion": 8,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e8f2bb5"
+  },
+  "type": "default",
+  "id": "Form_531bd855-77c7-4c23-9f56-56b237eb61df",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0"
+}

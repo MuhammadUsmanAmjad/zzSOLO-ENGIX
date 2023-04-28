@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "label": "Petroleum Density (730-770 kg/m3)",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_09u1tna",
+        "columns": null
+      },
+      "id": "Field_0m6qv74",
+      "key": "field_0o3zyuz"
+    },
+    {
+      "label": "Temperature (230-260 Degrees)",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_182dits",
+        "columns": null
+      },
+      "id": "Field_0xjn0ul",
+      "key": "field_1tp8tep"
+    },
+    {
+      "label": "Carbon Ratio (0.25-0.44) ",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1tykumf",
+        "columns": null
+      },
+      "id": "Field_1mfrbyx",
+      "key": "field_06wagla"
+    },
+    {
+      "label": "Rust found ",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0l495hu",
+        "columns": null
+      },
+      "id": "Field_17dclt7",
+      "key": "field_1ncwm30"
+    },
+    {
+      "label": "Acceptable Purification level",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1g45u1z",
+        "columns": null
+      },
+      "id": "Field_1gmoy7u",
+      "key": "field_0ljngih"
+    },
+    {
+      "values": [
+        {
+          "label": "Low Ethanol",
+          "value": "value"
+        },
+        {
+          "label": "High Ethanol",
+          "value": "value2"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0ioajhv",
+        "columns": 4
+      },
+      "id": "Field_0vqn5d9",
+      "key": "field_00oe19f",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Carbon Monoxide ratio",
+      "type": "number",
+      "layout": {
+        "row": "Row_14lsj6y",
+        "columns": 4
+      },
+      "id": "Field_1s9im9h",
+      "key": "field_1tns5c9",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Octane number",
+      "type": "number",
+      "layout": {
+        "row": "Row_0gdekl0",
+        "columns": 4
+      },
+      "id": "Field_1m2ouow",
+      "key": "field_137thno",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Quantity of iso-Butane",
+      "type": "number",
+      "layout": {
+        "row": "Row_0u2zssj",
+        "columns": 4
+      },
+      "id": "Field_1w580gl",
+      "key": "field_0w9vd9z"
+    },
+    {
+      "action": "submit",
+      "label": "Submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_147y4t7",
+        "columns": 2
+      },
+      "id": "Field_0n5u3e0",
+      "key": "field_13aqbi4"
+    },
+    {
+      "action": "reset",
+      "label": "Reset",
+      "type": "button",
+      "layout": {
+        "row": "Row_147y4t7",
+        "columns": 2
+      },
+      "id": "Field_1xk7y8h",
+      "key": "field_1g7ts99"
+    }
+  ],
+  "schemaVersion": 8,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e8f2bb5"
+  },
+  "type": "default",
+  "id": "Form_13de224d-6f66-482b-9755-fe5b29eafe0a",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0"
+}

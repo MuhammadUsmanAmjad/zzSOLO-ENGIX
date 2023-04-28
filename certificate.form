@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "label": "Petroleum Density (730-770 kg/m3)",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_09u1tna",
+        "columns": null
+      },
+      "id": "Field_0m6qv74",
+      "key": "field_0o3zyuz"
+    },
+    {
+      "label": "Temperature (230-260 Degrees)",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_182dits",
+        "columns": null
+      },
+      "id": "Field_0xjn0ul",
+      "key": "field_1tp8tep"
+    },
+    {
+      "label": "Carbon Ratio (0.25-0.44) ",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1tykumf",
+        "columns": null
+      },
+      "id": "Field_1mfrbyx",
+      "key": "field_06wagla"
+    },
+    {
+      "label": "Rust found ",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0l495hu",
+        "columns": null
+      },
+      "id": "Field_17dclt7",
+      "key": "field_1ncwm30"
+    },
+    {
+      "label": "Acceptable Purification level",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1g45u1z",
+        "columns": null
+      },
+      "id": "Field_1gmoy7u",
+      "key": "field_0ljngih"
+    },
+    {
+      "values": [
+        {
+          "label": "Low Ethanol",
+          "value": "value"
+        },
+        {
+          "label": "High Ethanol",
+          "value": "value2"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_0ioajhv",
+        "columns": 4
+      },
+      "id": "Field_0vqn5d9",
+      "key": "field_00oe19f",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Carbon Monoxide ratio",
+      "type": "number",
+      "layout": {
+        "row": "Row_14lsj6y",
+        "columns": 4
+      },
+      "id": "Field_1s9im9h",
+      "key": "field_1tns5c9",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Octane number",
+      "type": "number",
+      "layout": {
+        "row": "Row_0gdekl0",
+        "columns": 4
+      },
+      "id": "Field_1m2ouow",
+      "key": "field_137thno",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Quantity of iso-Butane",
+      "type": "number",
+      "layout": {
+        "row": "Row_0u2zssj",
+        "columns": 4
+      },
+      "id": "Field_1w580gl",
+      "key": "field_0w9vd9z"
+    },
+    {
+      "label": "Good",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1nfnekf",
+        "columns": null
+      },
+      "id": "Field_12k5g1s",
+      "key": "field_1p3bypy"
+    },
+    {
+      "label": "Poor",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1wiq3zb",
+        "columns": null
+      },
+      "id": "Field_0rckl8u",
+      "key": "field_17mjtgg"
+    },
+    {
+      "label": "Satisfactory",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1fa2f9g",
+        "columns": null
+      },
+      "id": "Field_0m5n5cz",
+      "key": "field_1ychngt"
+    },
+    {
+      "label": "Excellent",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0mvsqsp",
+        "columns": null
+      },
+      "id": "Field_0kniru3",
+      "key": "field_1cs47f9"
+    },
+    {
+      "action": "submit",
+      "label": "Generate Certificate",
+      "type": "button",
+      "layout": {
+        "row": "Row_0t11s3o",
+        "columns": null
+      },
+      "id": "Field_1e35yxl",
+      "key": "field_1dvemh9"
+    }
+  ],
+  "schemaVersion": 8,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e8f2bb5"
+  },
+  "type": "default",
+  "id": "Form_ee749933-6347-47a2-9fe5-72a808b16659",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0"
+}
